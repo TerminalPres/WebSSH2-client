@@ -1,0 +1,31 @@
+{
+  "name": "webssh2-client",
+  "version": "0.2.3",
+  "description": "A Websocket to SSH2 gateway using term.js, socket.io, ssh2, and express",
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Bill Church",
+      "email": "wmchurch@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": "6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --config scripts/webpack.prod.js",
+    "builddev": "webpack --progress --colors --config scripts/webpack.dev.js",
+    "analyze": "webpack --json --config scripts/webpack.prod.js | webpack-bundle-size-analyzer"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "xterm": "^3.5.1"
+  },
+  "standard": {
+    "ignore": [
+      "public/webssh2.bundle.js"
+    ]
+  }
+}
