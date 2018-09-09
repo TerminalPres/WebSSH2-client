@@ -21,7 +21,11 @@
   "devDependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "xterm": "^3.5.1"
+    "xterm": "^3.5.1",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4",
+    "webpack-stream": "^5.1.1"
   },
   "standard": {
     "ignore": [
